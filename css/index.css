@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{font-family:"微软雅黑"; font-size: 12px;}
+li{ list-style:none;}
+a{ color: #757575; text-decoration:none;}
+a:hover{ color: #fff;}
+input{outline: none;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
+
+/*主图片*/
+.office-img{ height: 580px;position: relative; overflow: hidden; margin-top: 80px;}
+.office-img-main{ width: 1920px; height: 580px; position: absolute; top: 0; left: 50%; margin-left: -960px; overflow: hidden;}
+#office-img-list{width: 300%; position: absolute; top: 0; left: 0;}
+#office-img-list li{float: left; width: 1920px; height: 580px; }
+.office-img-bottom{ width: 60px; position: absolute; bottom: 22px; left: 50%; margin-left: -30px;}
+.office-img-bottom li{ float: left; width: 12px; height: 12px; margin: 0 4px; background: url(../img/office-sprite.png) no-repeat; background-position: -28px -34px;}
+.office-img-bottom li:hover{background-position: 0 -34px;}
+
+/*标题公用*/
+.title-chinese{ width: 230px; font-size: 36px; line-height: 36px; color: #222; margin: 0 auto; text-align: center;}
+.title-english{ width: 230px; font-size: 14px; line-height: 24px; color: #666; margin: 0 auto;text-align: center;}
+.title-line{ width: 75px; height: 17px; border-bottom: #fc5558 solid 1px; margin: 0 auto 56px;}
+
+.design{ background: #fff; padding: 64px 0 0 0; overflow: hidden;}
+.case-nav-design{ background: #f1f1f1;}
+.case-nav-design:hover { background: #ffff;}
+
+.success{ background: #f1f1f1;}
+.success-button{ width: 960px; margin: 0 auto; padding-bottom:48px;}
+.success-button a{float: left; width: 160px; height: 35px; line-height: 35px; border-radius: 17px; margin: 0 16px; font-size: 15px; color: #757575; text-align: center; background: #fff; overflow: hidden;}
+.success-button a:hover{ background: #fc5455; color: #fff;}
+.success-button .success-button-current{ background: #fc5455; color: #fff;}
+.success-body{ width: 1280px;  overflow: hidden; margin: 0 auto;}
+.success-body ul{width: 1288px;}
+.success-body li{ float: left; width: 314px; height: 520px; margin-right: 8px; position: relative;}
+.success-body-hover{ display: none; width: 314px; height: 354px; background: rgba(0,0,0,0.8); position: absolute; top: 0; left: 0; padding-top: 166px; }
+.success-body-hover img{ display: block; margin: 0 auto; padding-bottom: 21px;}
+.success-body-hover p{ width: 255px; line-height: 24px; font-size: 14px; color: #fff; padding: 0 0 30px 32px; }
+.success-body li:hover .success-body-hover{display: block;}
+.success-body-more{ display: block; width: 127px; height: 35px; line-height: 35px; border: #757575 solid 1px; border-radius: 17px; font-size: 15px; color: #757575; text-align: center; margin: 40px auto 0; cursor: pointer;}
+
+.news-body{ width: 1280px; height: 357px; overflow: hidden; margin: 0 auto; position: relative;}
+.news-body ul{ width: 110%;}
+.news-body li{width: 348px; height: 276px; background: rgba(0,0,0,0.5); overflow: hidden;}
+.news-body a{ display: block; overflow: hidden; z-index: 99;}
+
+.news-body-info{ position: absolute; top: 280px; left: 0; color: #fff; padding:0 16px 16px 20px; background: rgba(0,0,0,0.8);}
+.news-body-info h1{ width: 542px; font-size: 18px; line-height: 44px; font-weight: 400;}
+.news-body-info span{float: right; font-size: 14px; }
+.news-body-info p{ width: 460px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.news-body .news-item1{ position: absolute; top: 43px; left: 0; transition: all 0.5s;}
+.news-body .news-item2{ width: 578px; height: 353px; position: absolute; top: 4px; left: 351px; transition: all 0.5s;}
+.news-body .news-item3{ position: absolute; top: 43px; right: 0; transition: all 0.5s;}
+.news-item1 .news-body-info,.news-item3 .news-body-info{display: none;}
+
+.news-body-black1{ width: 348px; height: 276px; background: rgba(0,0,0,0.5); position: absolute; top: 43px; left: 0;}
+.news-body-black3{ left: auto; right: 0;}
+.news-left-botton{ display: block; width: 30px; height: 47px; background: rgba(0,0,0,0.3) url(../img/office-sprite.png) no-repeat; background-position: 9px 13px; position: absolute; top: 158px; left: 351px; text-indent: -99em; overflow: hidden; cursor: pointer;}
+.news-right-botton{background-position: -21px 13px; position: absolute; top: 158px; left: auto; right: 351px;}

@@ -1,0 +1,28 @@
+.team-size{width: 1100px;height: 386px;background: #ededed;margin: 138px auto 0;}
+.boss-img{float: left;margin: -30px 0 0 30px;width: 574px;height: 390px;}
+.boss-content{float: left; margin: 64px 0 0 56px;height: 322px;overflow: hidden;width: 384px;}
+.boss-content h3{float: left;font-size: 26px;color: #ae895d;font-weight:lighter;}
+.boss-content h4{float: left;margin: 6px 28px 0 0;font-size: 20px;color: #ae895d;font-weight: lighter;}
+.boss-content h5{margin-top: 10px;font-size: 16px;color: #727272;font-weight:lighter;}
+.boss-ptop{margin-top: 18px; }
+.boss-content p{width: 384px;line-height: 25px;font-size: 15px;color: #727272;}
+.team-creator{margin-top: 84px;}
+.creator-img{float: right;margin: -30px 30px 0 30px;width: 574px;height: 390px;}
+.team-box{width: 1100px;margin:80px auto 0;}
+.manager-changsha-img{float: left;width: 252px;height: 330px;}
+.manager-content{float: left; margin-left:30px;height: 330px;overflow: hidden;width: 256px;}
+.manager-content h3{float: left;margin-top: 11px;font-size: 26px;color: #ae895d;font-weight:lighter;}
+.manager-content h4{margin: 17px 28px 0 0;font-size: 20px;color: #ae895d;font-weight: lighter;}
+.manager-content h5{margin-top: 10px;font-size: 16px;color: #727272;font-weight:lighter;}
+.manager-ptop{margin-top: 10px;}
+.manager-content p{width: 256px;line-height: 25px;font-size: 15px;color: #727272;}
+.manager-right{float: right;}
+.team-person{width: 1100px;margin: 114px auto 0;overflow: hidden;}
+.team-person .team-boxsize{width: 110%;}
+.team-person dl{float: left;margin: 0 30px 70px 0;width: 252px;}
+.team-person img{display: block;}
+.person-name{font-size: 22px;line-height: 50px;color: #ccb8a4;width:252px ;height: 50px; overflow: hidden;}
+.person-position{font-size: 16px;color: #949494;height: 21px;width:252px ;overflow: hidden;}
+.person-banner{padding-top: 132px;height: 198px;text-align: center;border: 1px dashed #d0d0d0;overflow: hidden;}
+.person-banner1{font-size: 20px;line-height: 30px;color: #9e9e9e;}
+.person-banner2{font-size: 14px;color: #949494;}

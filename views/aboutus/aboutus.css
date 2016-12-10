@@ -1,0 +1,13 @@
+/*主要*/
+/*我们-关于*/
+.aboutus-bg{background:#f4f4f4;}
+.aboutus-flash{ width: 1280px; margin: 105px auto 0;}
+.aboutus-nav{ width: 1280px; margin: 38px auto 0;text-align: center;}
+.aboutus-nav .nav-list{ height: 20px; line-height: 20px; display: inline-block; padding-right: 36px; color: #666; font-size: 18px;}
+.nav-list .nav-list-content{ border-bottom:#fc5455 solid 2px; padding-bottom: 7px;}
+.nav-list .nav-list-line{ width: 0; height: 16px; font-size: 12px; border: #cfcfcf solid 1px; margin-left: 36px;}
+.aboutus-introduce{ width: 1280px; margin: 53px auto 92px auto;}
+.aboutus-company{ width: 1280px; line-height: 25px; text-indent: 2em; font-size: 15px; color: #757575; }
+
+/*我们-创意学院*/
+.creativecollege-img{ display: block; width: 1280px; height: 740px; margin:105px auto 0;}

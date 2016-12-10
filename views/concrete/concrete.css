@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*动态-详情内容*/
+.concrete-body{ 
+	background: #f4f4f4;
+}
+.concrete-main{ 
+	width: 1280px; 
+	height: auto;
+	margin: 112px auto 144px auto;
+	padding-bottom: 80px;
+	background-color: #fff
+}
+.concrete-main img{
+	float: left; 
+	width:1216px ; 
+	height: 560px; 
+	margin: 32px 0 0 32px;
+;
+}
+.concrete-main span{
+	float: left; 
+	height: 31px; 
+	width: 1000px; 
+	line-height: 31px; 
+	font-size: 24px;
+	color: #222222;
+	margin: 27px 0 0 27px;
+}
+.concrete-main i{
+	float: left;
+	width: 1000px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #666666;
+	margin: 0 0 28px 40px;
+}
+.concrete-main .main-paragraph{
+	float: left;
+	width:1212px ;
+	height: auto;
+	margin-left: 32px;	
+}
+.concrete-main .main-paragraph p{
+	float: left;
+	width: 1212px;
+	height: auto;
+	line-height: 25px;
+	font-size: 15px;
+	color: #757575;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,18 @@
+
+
+/*案例详情正文*/
+.casedetail-container{width: 1280px;margin: 100px auto 208px;background-color: #f9f9f9; box-shadow: 3px 3px 3px 3px #e6e6e6;}
+.container-left{position: relative; float: left; width: 936px;padding:40px  0 0 40px; font-size: 15px;font-family: 华文仿宋;color: #757575;background: #fff;border-right:1px solid #e8e8e8 ;}
+.left-jiantou{position: absolute;left: 976px;top: 80px;width: 13px;height: 19px;background: url(../../img/casedetail-jiantou.png) no-repeat;}
+.left-content{width: 851px; height: auto;padding: 52px 26px 72px 23px;}
+.left-content p{text-indent: 2em; line-height: 26px;}
+
+.container-right{float: left;width: 271px;height: auto;padding: 24px 0 0 29px;}
+.right-tit{height: 50px;line-height: 50px; font-size: 18px;color: #222;white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.right-p{width: 238px;margin-bottom: 19px;  font-size: 14px; color: #757575;line-height: 22px;}
+.container-right h3{height: 28px; font-size: 16px;color: #666;line-height: 28px;font-weight: 100;white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.right-case{height: 36px;margin: 30px 0 14px 0;font-size: 18px;color: #222;}
+.right-link1{height: 154px;}
+.right-link{display: block; float: left;width: 116px;height: 154px; margin: 0 7px 0 1px;}
+.link-tit{height: 38px;line-height: 38px; font-size: 14px;color: #222;}
+.right-return{display: block; width: 40px;height: 40px;margin-top: 18px; background: #ff5253;border-radius: 50%;font-size: 14px;color: #fff;line-height: 40px;text-align: center;}

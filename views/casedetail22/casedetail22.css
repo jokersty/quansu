@@ -1,0 +1,27 @@
+
+
+/*主要*/
+.aboutus-bg{background: #f4f4f4;}
+.casedetail22-lovemaster{ width: 1280px;  margin: 110px auto 200px auto; box-shadow: 2px 5px 5px #e3e3e3;background: #fff; display: block;}
+.casedetail22-lovemaster .lovemaster-left{ float: left; position: relative; width: 976px; border-right: #e8e8e8 solid 1px; }
+.lovemaster-left .lovemaster-img{ display:block; width: 900px; height: 2504px; padding: 40px 36px 86px 40px;}
+.lovemaster-left .lovemaster-enlarge{ display: block; width: 40px; height: 40px; position: absolute; top: 40px; right: 36px; cursor: pointer;}
+ 
+.lovemaster-right{ float: left; width: 240px; padding: 40px 40px 0 23px; position: relative;}
+.lovemaster-right .right-arrow{ position: absolute; left: 0;top: 80px;z-index: 1; width: 0; height: 0; border-width: 13px; border-color: transparent transparent transparent #e8e8e8; border-style: dashed dashed dashed solid; font-size: 0;}
+.lovemaster-right .right-arrow2{ position: absolute; left: -1px;top: 80px;z-index: 2; width: 0; height: 0; border-width: 13px; border-color: transparent transparent transparent #fff; border-style: dashed dashed dashed solid; font-size: 0;}
+
+.lovemaster-right .right-title{ width:100%; line-height: 20px; font-size: 18px; color: #222;}
+.lovemaster-right .right-detail{ width: 100%; line-height: 22px; font-size: 14px; color: #757575; margin-top: 14px;}
+.lovemaster-right .right-time{width: 100%; line-height: 18px; font-size: 16px; color:#666666; margin-top: 23px;}
+.lovemaster-right .right-admin{width: 100%; line-height: 18px; font-size: 16px; color:#666666; margin-top: 7px;}
+.lovemaster-right .right-caserelated{ display: block; width: 100%; font-size: 18px; line-height: 24px; color: #222; margin-top: 39px;}
+.lovemaster-right .right-caselink{ width: 100%; margin-top: 21px;}
+.right-caselink .right-caseleft,.right-caselink .right-caseright{ float: left; width: 116px; padding: 0 2px 0 2px;}
+.right-caseleft img,.right-caseright img{ display: block; width: 100%; height: 116px;}
+.case-text{ display: block; width: 100%; line-height: 18px; color: #222; margin-top: 9px; font-size: 14px;}
+.lovemaster-linkcase{ display: block; width:40px; height: 40px; margin-top: 29px; }
+
+.lovemaster-btnclick{ position: absolute;left: 0; top: 80px; z-index: 11; width: 100%; height: 3096px; background: rgba(0,0,0,0.8);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8000000, endColorstr=#c8000000); overflow: hidden;}
+.lovemaster-btnclick .btnclick-img{ position: absolute; left: 50%; top: 0; margin-left: -800px; width: 1600px; height: 3096px;}
+.btnclose-img{ display: block; position: fixed; top:90px; right:0; cursor: pointer;}

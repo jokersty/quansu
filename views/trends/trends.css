@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*动态内容*/
+.trends-body{ 
+	background: #f4f4f4;
+}
+.trends-main{
+	width: 1280px;
+	height: auto; 
+	overflow: hidden;
+	margin: 145px auto 0 auto;
+}
+.trends-main ul{ 
+	width: 110%; 
+	height: auto;
+}
+.trends-main-content{ 
+	float: left;
+	position: relative; 
+	width: 400px; 
+	height: 450px;
+	background-color: #fff; 
+	margin: 0 40px 40px 0;
+}
+.trends-main-content a{
+	float: left; 
+	width: 400px; 
+	height: 250px;
+}
+.trends-main-content .content-fix{
+	position: absolute;
+	top: 5000%;
+	left: 0;
+	width: 400px;
+	height: 250px;
+	background: rgba(0,0,0,0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);	
+}
+.trends-main-content .content-fix img{
+	display: block;
+	width: 40px; 
+	height:40px ;
+	margin: 105px 0 0 180px;
+	}
+.trends-main-content a:hover .content-fix{
+	top: 0;
+}
+
+.trends-main-content span{
+	float: left; 
+	width: 350px; 
+	height: 30px; 
+	margin: 19px 0 0 24px;
+	}
+.trends-main-content span a{
+	width: 350px; 
+	height: 30px; 
+	font-size: 20px;
+	line-height: 30px; 
+	
+	color: #222222;
+	}
+.trends-main-content span a{ 
+	text-decoration:none;
+}
+.trends-main-content i{
+	float: left;
+	width: 350px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	color: #666666;
+	margin:0 0 16px 24px;
+}
+.trends-main-content p{
+	float: left;
+	height: 88px;
+	width: 350px;
+	line-height: 22px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #757575;
+	margin:0 0 20px 26px;
+}
+.trends-main-bottom{
+	display: block; 
+	width: 124px; 
+	height: 33px;
+	border: 1px solid #757575;
+	border-radius: 16px 16px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto 90px auto;
+	color: #757575;
+}

@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*服务*/
+.servic-top-main{ 
+	float: left;
+	height: auto; 
+	width: 100%; 
+	background: #fff;
+	padding-bottom: 68px;
+	margin-top: 80px;
+}
+.servic-top{
+	width: 1280px;
+	height: auto;
+	margin: 80px auto 0 auto;
+		
+ }
+ .servic-top .top-tittle{
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 60px;
+ }
+.servic-top .top-tittle a{
+	float: left;
+	height: 42px;
+	width: 1280px;
+	overflow: hidden;
+	line-height: 42px;
+	text-align: center;
+	font-size: 35px;
+	color: #222222;
+}
+.servic-top .top-tittle span{
+	float: left;
+	width: 1280px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}
+.servic-top .top-tittle i{
+	float: left;
+	width: 75px;
+	height: 21px;
+	border-bottom: solid 1px #fc5455;
+	margin-left:602px;
+}
+.servic-top-services-main{
+	width: 1280px;
+	height: auto;
+	overflow: hidden;
+}
+.servic-top-services{
+	width: 110%;
+	height: auto;
+}
+.servic-top-services .services-single {
+	float: left;
+	width: 300px;
+	height: auto;
+	padding-bottom: 1px;
+	margin: 0 128px 5px 30px;
+}
+.services-single img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px 50px;
+	margin: 48px 0 0 102px;
+}
+.services-single span{
+	float: left;
+	height: 26px;
+	width: 300px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 15px;
+	color: #222222;
+}
+.services-single i{
+	float: left;
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
+.services-single p{
+	float: left;
+	width: 265px;
+	height: auto;
+	line-height: 24px;
+	text-align: center;
+	font-size: 14px;
+	margin:12px 0 0 18px;
+	color: #757575;
+}
+.servic-top-services .services-block{
+	float: left;
+	width: 204px;
+	height: 270px;
+	
+}
+
+.servic-center-main{
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #f1f1f1;
+	padding-bottom: 50px;
+}
+.servic-center{
+	margin-top: 0;
+}
+
+
+.servic-center-imges{
+	float: left;
+	position: relative;
+	width: 1280px;
+	height: 467px;
+	background:url(../../img/servic-contenr-bg.png) no-repeat top;
+	margin-top: 70px;
+	
+}
+.servic-center-imges .center-paly{
+	position: absolute;
+	top:195px;
+	left:145px;
+	width: 5px;
+	height: 5px;
+	border: 4px  solid #dadada;
+	background: #b4b4b4;
+	border-radius: 6px 6px;
+} 
+.servic-center-imges .center-paly:hover{
+	background: #fff;
+	border-color: #f29b9c;
+}
+.servic-center-imges .center-paly:hover .center-paly-content{
+	display: block;
+} 
+.center-paly-tittle{
+	position: absolute;
+	bottom: 10px;
+	left: -300px;
+	width: 600px;
+	height: 36px;
+	overflow: hidden;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #222222;
+}
+
+#paly-bg1
+#paly-bg2
+#paly-bg3
+#paly-bg4
+.paly-bg{
+	
+	width: 5px;
+	height: 5px;
+	border: 4px  solid #dadada;
+	background: #b4b4b4;
+	border-radius: 6px 6px;
+}
+.paly-nopaly{
+	
+	width: 5px;
+	height: 5px;
+	border: 4px  solid #dadada;
+	background: #fff;
+	border-color: #f29b9c;
+}
+
+.center-paly-content{
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	left: -101px;
+	cursor: default;
+	width: 205px;
+	height: auto;
+}
+.center-paly-content .play-content-top{
+	width: 204px;
+	height: auto;
+	padding-bottom: 12px;
+	border-radius:2px 2px ;
+	background: #666666;
+}
+.center-paly-content .play-content-top span{
+	float: left;
+	height: 21px;
+	width: 180px;
+	font-size: 15px;
+	line-height: 21px;
+	overflow: hidden;
+	color: #FFFFFF;
+	margin: 8px 0 1px 16px;
+}
+.center-paly-content .play-content-top i{
+	float: left;
+	height: auto;
+	width: 172px;
+	line-height: 18px;
+	font-size: 14px;
+	margin-left: 16px;
+	color: #fff;
+}
+.center-paly-content em{
+	float: left;
+	width: 0;
+	height: 0;
+	border: solid 7px #666666;
+	border-color: #666666 transparent transparent transparent;
+	margin-left: 96px;
+}
+
+.servic-center-imges .center-trade{
+	top: 76px;
+	left: 419px;
+}
+.servic-center-imges .center-bank{
+	top: 244px;
+	left: 713px;
+}
+.servic-center-imges .center-other{
+	top: 145px;
+	left: 995px;
+}
+
+.servic-lower-main{
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-bottom: 170px;
+}
+.servic-lower{
+	margin-top: 0;
+}
+
+.servic-lower-name{
+	width: 1980px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.servic-lower-name .name-all{
+	width: 110%;
+	height: auto;
+	margin-top: 62px;
+}
+.servic-lower-name .name-all img{
+	float: left;
+	width: 202px;
+	height: 58px;
+	border: 1px solid #f2f2f2;
+	margin: 0 11px 24px 0;
+}

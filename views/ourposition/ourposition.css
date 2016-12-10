@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,h1,h2,h3,h4,dd,dt,dl,h5,h6,span,b,p,strong,form,input{ margin:0; padding:0;}
+
+body{font-family:"微软雅黑"; background: #f4f4f4;  min-width:1280px;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
+
+.ourposition-back{ width: 1280px; height: auto; margin: 30px auto 70px; background: #ffffff; overflow: hidden;}
+.ourposition-head{ width: 1200px; height: 148px; margin: 0px 40px 0; padding-top: 58px; border-bottom: 1px solid #ededed;}
+.ourposition-head h3{ padding-bottom: 12px; font-family: "宋体"; font-size: 20px; color: #222222;}
+.ourposition-head p{ height: 36px; line-height: 36px; font-family: "宋体"; font-size: 18px; color: #757575;}
+.ourposition-head span{ color: #fc5455;}
+
+.ourposition-main{ width:1280px; height: auto; padding-bottom: 48px; border-bottom: 1px solid #ededed;}
+.ourposition-main li{ float: left; width: 580px; padding: 36px 0 0 37px;}
+.ourposition-main-head{ padding-bottom: 20px;}
+.ourposition-main img{ display: block; float: left; width: 50px; height: 50px; padding-right: 13px;}
+.ourposition-main h3{ font-family: "宋体"; font-size: 26px;}
+.ourposition-main-p1{ font-size: 14px; color: #666666; text-indent: 5px;}
+.ourposition-main h4{  width: 550px;height: 35px; line-height: 35px; font-family: "宋体"; font-size: 20px;overflow: hidden;}
+.ourposition-main p{ line-height: 24px; font-size: 14px; color: #757575; font-family: "宋体";}
+.ourposition-main span{ font-size: 14px; color: #757575; font-family: "宋体";}
+.ourposition-main-list li{ margin: 0; padding: 0 0 10px 0; float: none;}
+.ourposition-main-color01{ color: #fdb34d;}
+.ourposition-main-color02{ color: #fc5455;}
+.ourposition-main-color03{ color: #8375cc;}
+.ourposition-main-color04{ color: #4eccb3;}
+.ourposition-main-color05{ color: #d07bd3;}
+.ourposition-main-color06{ color: #ae895d;}
+.ourposition-main-color07{ color: #fa7248;}
+.ourposition-main-color08{ color: #4e6fcc;}
+.ourposition-main-color09{ color: #4ec8cc;}
+.ourposition-main-color10{ color: #fc549b;}
+
+.ourposition-main-bottom{ margin: 87px 0 96px 251px;}
+.ourposition-main-bottom ul{ padding-top: 13px;}
+.ourposition-main-bottom li{ height: 32px; line-height: 32px; font-family: "宋体"; font-size: 16px; color: #666666;}
+.ourposition-main-bottom span{ font-family: "宋体"; font-size: 16px; color: #222222;}
+.ourposition-main-bottom a{ color: #fc5455;}
+.ourposition-main-bottom img{ display: block; float: left; padding-right: 54px;}

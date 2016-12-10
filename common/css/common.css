@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{font-family:"微软雅黑";   }
+li{ list-style:none;}
+a{ text-decoration:none;}
+i{ font-style: normal;}
+input,select{outline: none;}
+img{ border:0 none; vertical-align:top;}
+body{ font-family:"微软雅黑"; font-size:12px; background:#fff; position: relative;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
+/*头部分*/
+.header{ width:100%; height:48px; border-bottom: 1px solid #e4e4e4; padding:17px 0 14px 0; position: fixed; top:0; z-index:999; background: #fff;}
+.header-nav{ width:1280px; height:48px; margin:0 auto; position: relative;}
+.header-nav .logo{ float: left; padding-left: 7px;}
+.header-nav .nav{ float:left; padding-left: 400px; line-height: 48px;}
+.header-nav .nav a{ color:#757575; margin-right: 62px; font-size: 18px;}
+.header-nav .wechat{ display:block; float:left; padding-top:8px;}
+.header-nav .weibo{ display:block; float:right; padding-top:8px;}
+.qrcode{  display: none; position: absolute; top:68px; right:0; width:138px; height:165px;}
+.header-nav .wechat:hover .qrcode{ display: block;}
+.underline{ border-bottom: 2px solid #ee4647; font-weight: bold;}
+/*内容*/
+
+/*案例下的导航部分*/
+.case{ width:100%; margin:0 auto 0 auto; background: #f0f0f0; height:397px;}
+.case-nav{ width:1290px; height: 100%; margin:0 auto;}
+.case-nav li{ float: left;}
+.case-nav-design{ display:block; width:256px; height:357px; padding-top: 40px;}
+.case-nav-design:hover{ background: #fff;}
+.design-img{ display: block; margin:0 auto; width:100px; height:100px;}
+.case-nav-design h3{ font-size:18px; margin-top:16px; text-align:center; font-weight: 500; color:#222222;}
+.case-nav-design h5{ font-size:12px; margin-top:9px; text-align:center; font-weight: 500; color:#666;}
+.design-content{ margin:36px 0 0 0;}
+.design-content a{ color:#757575; font-size: 14px; line-height: 24px; display: block; text-align: center;}
+.design-content a:hover{ color:#fc5455;}
+/*侧边栏*/
+.sidebar{width:31px; height:226px; position: fixed; top:50%; right:10px; margin-top:-113px;}
+.sidebar a{ display:block; margin-bottom: 8px;}
+.sidebar-phone{position: relative;}
+.sidebar-phone .number-icon{ display:none; position: absolute; top:0; right:0;}
+.sidebar-phone:hover .number-icon{ display: block;}
+/*底部*/
+.bottom{ background: #343434;}
+.bottom-guild{ width:1280px; height:227px; margin:0 auto; overflow: hidden;}
+.bottom-note{ height:36px; line-height: 36px; color:#a7a7a7; text-align: center; border-top:1px solid #424242;}
+
+.bottom-guild-address{ float:left; width:420px; height:227px; padding-left: 20px; position: relative;}
+.bottom-guild-address img { display: block; margin:49px auto 0 auto;}
+.address-city{ padding:32px 0 0 59px;}
+.address-city a{color:#fff; font-size:14px; margin-right: 28px; float:left;}
+.address-city-hangzhou{ border-bottom: 2px solid #fc5455;}
+.address-body p{color:#fff; font-size:14px; position: absolute; left:79px; top:156px; overflow: hidden; display: none;}
+
+.bottom-guild-phone{ float: left; width:328px; margin-left: 72px; height:227px;color:#fff; font-size:14px;}
+.bottom-guild-phone img { display: block; margin:49px auto 0 auto;}
+.phone-number{ padding:32px 0 0 78px;}
+.phone-fax{ padding:21px 0 0 78px;}
+
+.bottom-guild-consociation{ float: right; width:400px; height:227px;color:#fff; font-size:14px;}
+.bottom-guild-consociation img { display: block; margin:49px auto 0 auto;}
+.consociation-phone{float: left; padding:32px 0 0 78px;}
+.consociation-number{ float: left; padding-top: 32px;}
+
+

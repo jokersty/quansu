@@ -1,0 +1,53 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{font-family:"微软雅黑";  background:#f4f4f4; font-size: 12px;min-width: 1280px;}
+li{ list-style:none;}
+a{ text-decoration:none; }
+input,select{outline: none;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
+/*菜单*/
+.ourjoin-bg{ background: #f4f4f4;}
+.ourjoin{width:1280px;margin: 105px auto 0;}
+.ourjoin .ourjoin-headimg{display: block; height: 740px;width:1280px;}
+.ourjoin-menu{margin-top: 28px; margin-bottom: 65px; text-align: center;}
+.ourjoin-menu a{margin-right: 36px;font-size: 18px;line-height:36px;color: #666;}
+.ourjoin-menu .current{padding-bottom: 7px;font-style: normal;border-bottom:2px solid #fc5455;}
+.ourjoin-menu a span{font-size: 14px;color: #cfcfcf;}
+/*下半部分大标题*/
+.ourjoin-title{ height: 101px; margin-top: 15px; border-bottom: 1px solid #dedede; background: #ededed; overflow: hidden;}
+.ourjoin-title li{ position: relative; float: left; width: auto; height: 36px; margin: 17px 0 12px 0; padding:36px 38px 0; border-right: 1px solid #dedede;}
+.ourjoin-title h3{ font-family: "宋体"; font-size: 22px;}
+.ourjoin-title a{ color: #2e2e2e;}
+.ourjoin-title h4{ height: 22px; line-height: 22px; font-family: "微软雅黑"; font-size: 14px; font-weight: 100; text-indent: 5px; color: #666666}
+.ourjoin-title-head{ position: absolute; left: 35px; top: -10px; color: #c8c8c8;}
+.ourjoin-title-head p{ float: left; height: 40px; line-height: 40px; font-family: "宋体"; font-size: 40px;}
+.ourjoin-title-head span{ float: left; display: block; height: 40px; line-height: 40px;  font-size: 20px;}
+#ourjoin-title-blank{ width: 367px; border: none;}
+#ourjoin-title-blank02{ border: none;}
+/*下半部分01部分*/
+.ourjoin-main{ position: relative; height: 710px;}
+.ourjoin-main01{ position: absolute; top: -113px; left: 188px;}
+.ourjoin-main01-head{ position: relative; width: 400px; height: 78px; padding: 25px 0 0 40px; background: #fc5455; color: #ffffff;}
+.ourjoin-main01-head p{ float: left; height: 50px; line-height: 50px; font-family: "宋体"; font-size: 50px;}
+.ourjoin-main01-head span{ float: left; display: block; height: 50px; line-height: 50px;  font-size: 20px;}
+.ourjoin-main01-head h3{ padding: 5px 0 0 80px; font-family: "宋体"; font-size: 26px;}
+.ourjoin-main01-head h4{ padding-left: 80px; font-family: "宋体"; font-size: 14px;}
+.ourjoin-main01-head h5{ position: absolute; top: 18px; right: 0; font-size: 20px; letter-spacing: 35px; font-family: "黑体";}
+.ourjoin-main01-head a{ color: #FFFFFF;}
+.ourjoin-main01-main{ width: 425px; height: auto; padding: 20px 0 15px 15px; background: #ffffff;}
+.ourjoin-main01-main h4{ height: 35px; line-height: 35px; font-family: "宋体"; font-size: 14px;}
+.ourjoin-main01-main p{ line-height: 26px; font-size: 14px; color: #757575; font-family: "宋体";}
+.ourjoin-main01-main span{ font-size: 14px; color: #757575; font-family: "宋体";}
+.ourjoin-main01-list li{ margin: 0; padding: 0 0 0 0; float: none;}
+/*下半部分填充部分*/
+.ourjoin-main-blank{ height: 710px; width: 643px; margin-left: 637px;}
+.ourjoin-main-blank img{ padding: 74px 0 103px 81px;}
+.ourjoin-main-blank h3{ height: 30px; line-height: 30px; padding-left: 40px; font-family: "宋体"; font-size: 18px; color: #222222;}
+.ourjoin-main-blank ul{ padding-left: 33px;}
+.ourjoin-main-blank li{ float: left; width: 300px; height: 30px; line-height: 30px; font-family: "宋体"; font-size: 15px; color: #757575;}
+#ourjoin-main-letter{ width: 310px;}
+.ourjoin-main-blank a{ color: #fc5455;}
+.ourjoin-button p{ width: 126px; height: 35px; line-height: 35px; margin-top: 110px; text-align: center; font-size: 15px; background: url(../../img/ourjoin-button.png) no-repeat;}
+.ourjoin-button a{ color: #757575;}

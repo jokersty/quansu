@@ -1,0 +1,8 @@
+
+/*案例case*/
+.case{margin-top:60px;}
+.case-box{ width:1280px ; height: auto; margin: 0 auto; overflow: hidden; margin-bottom: 208px; padding-top: 79px;}
+.case-box-nav{ font-family: 宋体; font-size:36px; line-height: 100px; margin-top: 9px; width: 1280px; margin: 0 auto; text-align: center;}
+.case-box-line{ width:75px ; height: 49px; border-top:1px solid #fedddd;margin:0 603px 0 603px;}
+.case-container{ width: 1288px; height: auto; margin: 0 auto;  background: #fff; }
+.case-container img{ float: left; width:314px ; height: 520px; background: #dadada; margin: 0 8px 8px 0;}

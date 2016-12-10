@@ -1,0 +1,10 @@
+body{background: #f4f4f4;}
+.dream{width:1280px;margin: 105px auto 0;}
+.dream .dream-topimg{display: block; height: 740px;width:1280px;}
+.dream-menu{margin-top: 28px;text-align: center;}
+.dream-menu a{margin-right: 36px;font-size: 18px;line-height:36px;color: #666;}
+.dream-menu .current{padding-bottom: 7px;font-style: normal;border-bottom:2px solid #fc5455;}
+.dream-menu a span{font-size: 14px;color: #cfcfcf;}
+.dream-content{margin: 66px 0 92px 0;}
+.dream-content p{line-height: 25px;color:#a6a6a6;text-indent: 2em;font-size: 15px;}
+
